@@ -10,7 +10,7 @@ stages{
 stage('Clone repo')
 {
 steps{
-git 'https://github.com/github-simplilearn-net/MavenBuild.git'
+git 'https://github.com/harsha100munna/MavenBuild.git'
 }
 }
 stage('Check Java Version') {
