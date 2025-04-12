@@ -13,6 +13,11 @@ steps{
 git 'https://github.com/github-simplilearn-net/MavenBuild.git'
 }
 }
+stage('Check Java Version') {
+  steps {
+    sh 'java -version'
+  }
+}
 stage('Compile Code')
 {
 steps{
